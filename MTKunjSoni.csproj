@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background.JPG" />
+    <None Remove="background1.JPEG" />
+    <None Remove="baseball.png" />
+    <None Remove="basketball.png" />
+    <None Remove="hockey.png" />
+    <None Remove="loginscreen.jpg" />
+    <None Remove="sonikunj1.JPEG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background.JPG" />
+    <Resource Include="background1.JPEG" />
+    <Resource Include="baseball.png" />
+    <Resource Include="basketball.png" />
+    <Resource Include="hockey.png" />
+    <Resource Include="loginscreen.jpg" />
+    <Resource Include="sonikunj1.JPEG" />
+  </ItemGroup>
+
+</Project>
